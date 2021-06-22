@@ -33,6 +33,6 @@ def test():
         time.sleep(0.01)
 test()
 
-os.system("mv download_video /home/storage/downloads")
+os.system("mv download_video /storage/emulated/0/Download")
 
 print("\n\n\033[0;32mBaixado com Sucesso [ ✔️ ]")
