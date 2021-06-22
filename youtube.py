@@ -31,9 +31,8 @@ def test():
     for n in range(101):
         progress_bar(n/100)
         time.sleep(0.01)
-        
-os.system("mv download_video /home/storage/downloads")
-        
 test()
+
+os.system("mv download_video /home/storage/downloads")
 
 print("\n\n\033[0;32mBaixado com Sucesso [ ✔️ ]")
