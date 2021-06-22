@@ -1,12 +1,13 @@
 from pytube import YouTube
 from tqdm import tqdm
 from time import sleep
+import os
 import pytube
 import sys
 import time
 import pyfiglet
 
-os.system(f"clear")
+os.system("clear")
 
 ascii_banner = pyfiglet.figlet_format("DownTube")
 print(ascii_banner)
