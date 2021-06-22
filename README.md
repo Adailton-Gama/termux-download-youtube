@@ -1,4 +1,8 @@
 SIGA OS PASSOS ABAIXO PRA INSTALAR:
+
+
+**ROOT NECESSARIO** 
+
 ```
 termux-setup-storage`
 apt install bash
