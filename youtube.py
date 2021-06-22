@@ -28,7 +28,9 @@ def test():
     for n in range(101):
         progress_bar(n/100)
         time.sleep(0.01)
-
+        
+os.system("mv 'Vídeo de 1 segundo.mp4' /home/storage/downloads")
+        
 test()
 
 print("\n\n\033[0;32mBaixado com Sucesso [ ✔️ ]")
